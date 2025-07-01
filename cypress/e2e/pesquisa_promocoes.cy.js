@@ -28,6 +28,7 @@ describe('Scraping de preços - Death Stranding 2 PS5 (mídia física)', () => {
       url: 'https://www.submarino.com.br/busca/death-stranding-2-ps5',
       resultado: 'h3[class*=product-name]',
       preco: 'span[class*=sales-price]',
+      timeout: 120000
       direto: true
     },
     {
@@ -35,6 +36,7 @@ describe('Scraping de preços - Death Stranding 2 PS5 (mídia física)', () => {
       url: 'https://www.americanas.com.br/busca/death-stranding-2-ps5',
       resultado: 'h3[class*=product-name]',
       preco: 'span[class*=sales-price]',
+      timeout: 120000
       direto: true
     }
   ];
