@@ -29,7 +29,7 @@ describe('Scraping de preços - Death Stranding 2 PS5 (mídia física)', () => {
       resultado: 'h3[class*=product-name]',
       preco: 'span[class*=sales-price]',
       timeout: 120000
-      direto: true
+     // direto: true
     },
     {
       nome: 'Americanas',
@@ -37,7 +37,16 @@ describe('Scraping de preços - Death Stranding 2 PS5 (mídia física)', () => {
       resultado: 'h3[class*=product-name]',
       preco: 'span[class*=sales-price]',
       timeout: 120000
-      direto: true
+      //direto: true
+    },
+    {
+      nome: 'Magazine Luiza',
+      url: 'https://www.magazineluiza.com.br/',
+      seletor: 'input[placeholder="Busca no Magalu"]',
+      resultado: 'h3[class*=product-name]',
+      preco: 'span[class*=sales-price]',
+      timeout: 120000
+     // direto: true
     }
   ];
 
